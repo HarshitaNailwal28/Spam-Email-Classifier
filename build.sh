@@ -1,6 +1,7 @@
 pip install -r requirements.txt
-python app.py migrate
-pip install numpy scipy scikit-learn
+
 pip install streamlit
+pip install numpy scipy scikit-learn
 python -m pip install --upgrade pip
 import nltk 
+import stopwords
