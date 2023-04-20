@@ -8,11 +8,6 @@ from nltk.stem.porter import PorterStemmer
 import nltk
 nltk.download('punkt')
 
-import requests
-from datetime import datetime,date,timedelta
-
-now = datetime.now()
-
 def tokenize(token):
     return nltk.word_tokenize(token);
 tokenize("why is this not working?");
