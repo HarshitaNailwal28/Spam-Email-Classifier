@@ -1,14 +1,14 @@
 import streamlit as st
 import pickle
 import string
-import sklearn
+
 from nltk.corpus import stopwords
 import nltk
 from nltk.stem.porter import PorterStemmer
 
 import nltk
 nltk.download('stopwords')
-
+import sklearn
 import nltk
 nltk.download('punkt')
 
