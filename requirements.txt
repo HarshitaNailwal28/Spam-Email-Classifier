@@ -1,6 +1,3 @@
 nltk==3.8
 streamlit==1.21.0
-numpy scipy scikit-learn
-sklearn
-streamlit
-from nltk.corpus import stopwords
+stopwords
